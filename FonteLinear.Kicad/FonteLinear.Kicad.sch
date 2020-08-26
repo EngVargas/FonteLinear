@@ -1,5 +1,5 @@
 EESchema Schematic File Version 4
-EELAYER 29 0
+EELAYER 30 0
 EELAYER END
 $Descr A4 11693 8268
 encoding utf-8
@@ -19,7 +19,7 @@ U 1 1 5F45AB19
 P 3850 4600
 F 0 "C1" H 3968 4646 50  0000 L CNN
 F 1 "CP" H 3968 4555 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3888 4450 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 3888 4450 50  0001 C CNN
 F 3 "~" H 3850 4600 50  0001 C CNN
 	1    3850 4600
 	1    0    0    -1  
@@ -30,7 +30,7 @@ U 1 1 5F45B7D7
 P 3850 5500
 F 0 "C2" H 3968 5546 50  0000 L CNN
 F 1 "CP" H 3968 5455 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D16.0mm_P7.50mm" H 3888 5350 50  0001 C CNN
+F 2 "Capacitor_THT:CP_Radial_D16.0mm_P7.50mm" H 3888 5350 50  0001 C CNN
 F 3 "~" H 3850 5500 50  0001 C CNN
 	1    3850 5500
 	1    0    0    -1  
@@ -41,7 +41,7 @@ U 1 1 5F45C98B
 P 5300 5800
 F 0 "U4" H 5300 5651 50  0000 C CNN
 F 1 "LM7915_TO220" H 5300 5560 50  0000 C CNN
-F 2 "Power_Integrations:TO-220" H 5300 5600 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5300 5600 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7905.pdf" H 5300 5800 50  0001 C CNN
 	1    5300 5800
 	1    0    0    -1  
@@ -52,7 +52,7 @@ U 1 1 5F45DEE3
 P 5300 4600
 F 0 "U3" H 5300 4842 50  0000 C CNN
 F 1 "LM7815_TO220" H 5300 4751 50  0000 C CNN
-F 2 "Power_Integrations:TO-220" H 5300 4825 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5300 4825 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 5300 4550 50  0001 C CNN
 	1    5300 4600
 	1    0    0    -1  
@@ -63,7 +63,7 @@ U 1 1 5F45F111
 P 5300 3850
 F 0 "U2" H 5300 4092 50  0000 C CNN
 F 1 "LM7805_TO220" H 5300 4001 50  0000 C CNN
-F 2 "Power_Integrations:TO-220" H 5300 4075 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5300 4075 50  0001 C CIN
 F 3 "http://www.fairchildsemi.com/ds/LM/LM7805.pdf" H 5300 3800 50  0001 C CNN
 	1    5300 3850
 	1    0    0    -1  
@@ -107,7 +107,7 @@ U 1 1 5F474C2E
 P 5900 2600
 F 0 "R1" H 5968 2646 50  0000 L CNN
 F 1 "R_US" H 5968 2555 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 5940 2590 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 5940 2590 50  0001 C CNN
 F 3 "~" H 5900 2600 50  0001 C CNN
 	1    5900 2600
 	1    0    0    -1  
@@ -118,7 +118,7 @@ U 1 1 5F479D6C
 P 900 5150
 F 0 "J1" H 1008 5431 50  0000 C CNN
 F 1 "Conn_01x03_Male" H 1008 5340 50  0000 C CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x03_Pitch2.54mm" H 900 5150 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 900 5150 50  0001 C CNN
 F 3 "~" H 900 5150 50  0001 C CNN
 	1    900  5150
 	1    0    0    -1  
@@ -129,7 +129,7 @@ U 1 1 5F47AFC6
 P 7350 2300
 F 0 "J5" H 7322 2182 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 7322 2273 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 7350 2300 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 7350 2300 50  0001 C CNN
 F 3 "~" H 7350 2300 50  0001 C CNN
 	1    7350 2300
 	-1   0    0    1   
@@ -140,7 +140,7 @@ U 1 1 5F47C27A
 P 6550 3850
 F 0 "J4" H 6522 3732 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 6522 3823 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 6550 3850 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6550 3850 50  0001 C CNN
 F 3 "~" H 6550 3850 50  0001 C CNN
 	1    6550 3850
 	-1   0    0    1   
@@ -151,7 +151,7 @@ U 1 1 5F47CDF2
 P 6500 4600
 F 0 "J2" H 6472 4482 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 6472 4573 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 6500 4600 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 4600 50  0001 C CNN
 F 3 "~" H 6500 4600 50  0001 C CNN
 	1    6500 4600
 	-1   0    0    1   
@@ -162,7 +162,7 @@ U 1 1 5F47D7BD
 P 6500 5550
 F 0 "J3" H 6472 5432 50  0000 R CNN
 F 1 "Conn_01x02_Male" H 6472 5523 50  0000 R CNN
-F 2 "Pin_Headers:Pin_Header_Angled_1x02_Pitch2.54mm" H 6500 5550 50  0001 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 6500 5550 50  0001 C CNN
 F 3 "~" H 6500 5550 50  0001 C CNN
 	1    6500 5550
 	-1   0    0    1   
@@ -173,7 +173,7 @@ U 1 1 5F47DE9E
 P 7200 4500
 F 0 "D5" H 7193 4245 50  0000 C CNN
 F 1 "LED" H 7193 4336 50  0000 C CNN
-F 2 "Diodes_THT:D_DO-35_SOD27_P5.08mm_Vertical_AnodeUp" H 7200 4500 50  0001 C CNN
+F 2 "LEDs:LED_D5.0mm" H 7200 4500 50  0001 C CNN
 F 3 "~" H 7200 4500 50  0001 C CNN
 	1    7200 4500
 	-1   0    0    1   
@@ -184,7 +184,7 @@ U 1 1 5F4818F7
 P 7350 4750
 F 0 "R2" H 7418 4796 50  0000 L CNN
 F 1 "R_US" H 7418 4705 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" V 7390 4740 50  0001 C CNN
+F 2 "Resistors_THT:R_Axial_DIN0207_L6.3mm_D2.5mm_P7.62mm_Horizontal" V 7390 4740 50  0001 C CNN
 F 3 "~" H 7350 4750 50  0001 C CNN
 	1    7350 4750
 	1    0    0    -1  
@@ -408,7 +408,7 @@ U 1 1 5F4AC9B6
 P 1750 4850
 F 0 "D1" V 1704 4929 50  0000 L CNN
 F 1 "1N4007" V 1795 4929 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1750 4675 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1750 4675 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1750 4850 50  0001 C CNN
 	1    1750 4850
 	0    1    1    0   
@@ -419,7 +419,7 @@ U 1 1 5F4B1D40
 P 2400 4850
 F 0 "D3" V 2354 4929 50  0000 L CNN
 F 1 "1N4007" V 2445 4929 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2400 4675 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2400 4675 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2400 4850 50  0001 C CNN
 	1    2400 4850
 	0    1    1    0   
@@ -430,7 +430,7 @@ U 1 1 5F4B2B78
 P 1750 5400
 F 0 "D2" V 1704 5479 50  0000 L CNN
 F 1 "1N4007" V 1795 5479 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1750 5225 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 1750 5225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 1750 5400 50  0001 C CNN
 	1    1750 5400
 	0    1    1    0   
@@ -441,7 +441,7 @@ U 1 1 5F4B39F6
 P 2400 5400
 F 0 "D4" V 2354 5479 50  0000 L CNN
 F 1 "1N4007" V 2445 5479 50  0000 L CNN
-F 2 "Diodes_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2400 5225 50  0001 C CNN
+F 2 "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal" H 2400 5225 50  0001 C CNN
 F 3 "http://www.vishay.com/docs/88503/1n4001.pdf" H 2400 5400 50  0001 C CNN
 	1    2400 5400
 	0    1    1    0   
@@ -474,7 +474,7 @@ U 1 1 5F4D8999
 P 6200 2950
 F 0 "C6" H 6315 2996 50  0000 L CNN
 F 1 "C" H 6315 2905 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" H 6238 2800 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6238 2800 50  0001 C CNN
 F 3 "~" H 6200 2950 50  0001 C CNN
 	1    6200 2950
 	1    0    0    -1  
@@ -497,7 +497,7 @@ U 1 1 5F4E0B2D
 P 3550 4600
 F 0 "C8" H 3665 4646 50  0000 L CNN
 F 1 "C" H 3665 4555 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" H 3588 4450 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3588 4450 50  0001 C CNN
 F 3 "~" H 3550 4600 50  0001 C CNN
 	1    3550 4600
 	1    0    0    -1  
@@ -511,7 +511,7 @@ U 1 1 5F4E13F9
 P 3550 5500
 F 0 "C9" H 3665 5546 50  0000 L CNN
 F 1 "C" H 3665 5455 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" H 3588 5350 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 3588 5350 50  0001 C CNN
 F 3 "~" H 3550 5500 50  0001 C CNN
 	1    3550 5500
 	1    0    0    -1  
@@ -534,7 +534,7 @@ U 1 1 5F4E92AA
 P 6650 2500
 F 0 "C7" H 6765 2546 50  0000 L CNN
 F 1 "C" H 6765 2455 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" H 6688 2350 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6688 2350 50  0001 C CNN
 F 3 "~" H 6650 2500 50  0001 C CNN
 	1    6650 2500
 	1    0    0    -1  
@@ -546,7 +546,7 @@ U 1 1 5F4E9A1C
 P 5800 4000
 F 0 "C3" H 5915 4046 50  0000 L CNN
 F 1 "C" H 5915 3955 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" H 5838 3850 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 5838 3850 50  0001 C CNN
 F 3 "~" H 5800 4000 50  0001 C CNN
 	1    5800 4000
 	1    0    0    -1  
@@ -558,7 +558,7 @@ U 1 1 5F4EA36B
 P 6000 4750
 F 0 "C4" H 6115 4796 50  0000 L CNN
 F 1 "C" H 6115 4705 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" H 6038 4600 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6038 4600 50  0001 C CNN
 F 3 "~" H 6000 4750 50  0001 C CNN
 	1    6000 4750
 	1    0    0    -1  
@@ -570,7 +570,7 @@ U 1 1 5F4EAAE8
 P 6000 5700
 F 0 "C5" H 6115 5746 50  0000 L CNN
 F 1 "C" H 6115 5655 50  0000 L CNN
-F 2 "Resistors_THT:R_Axial_DIN0309_L9.0mm_D3.2mm_P5.08mm_Vertical" H 6038 5550 50  0001 C CNN
+F 2 "Capacitors_THT:C_Disc_D5.0mm_W2.5mm_P2.50mm" H 6038 5550 50  0001 C CNN
 F 3 "~" H 6000 5700 50  0001 C CNN
 	1    6000 5700
 	1    0    0    -1  
@@ -584,7 +584,7 @@ U 1 1 5F4F0DB0
 P 5300 2350
 F 0 "U1" H 5300 2592 50  0000 C CNN
 F 1 "LM317_TO39" H 5300 2501 50  0000 C CNN
-F 2 "Power_Integrations:TO-220" H 5300 2575 50  0001 C CIN
+F 2 "Package_TO_SOT_THT:TO-220-3_Vertical" H 5300 2575 50  0001 C CIN
 F 3 "http://www.ti.com/lit/ds/symlink/lm317.pdf" H 5300 2350 50  0001 C CNN
 	1    5300 2350
 	1    0    0    -1  
@@ -597,7 +597,7 @@ U 1 1 5F473A9D
 P 5650 3050
 F 0 "RV1" H 5580 3096 50  0000 R CNN
 F 1 "R_POT_TRIM" H 5580 3005 50  0000 R CNN
-F 2 "Potentiometers:Potentiometer_Trimmer_Vishay_43" H 5650 3050 50  0001 C CNN
+F 2 "Potentiometer_THT:Potentiometer_Bourns_3005_Horizontal" H 5650 3050 50  0001 C CNN
 F 3 "~" H 5650 3050 50  0001 C CNN
 	1    5650 3050
 	0    -1   -1   0   
@@ -626,4 +626,48 @@ Wire Wire Line
 Wire Wire Line
 	5900 3100 6200 3100
 Connection ~ 6200 3100
+$Comp
+L Mechanical:Heatsink HS4
+U 1 1 5F49FC1F
+P 4850 5600
+F 0 "HS4" H 4992 5721 50  0000 L CNN
+F 1 "Heatsink" H 4992 5630 50  0000 L CNN
+F 2 "Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm" H 4862 5600 50  0001 C CNN
+F 3 "~" H 4862 5600 50  0001 C CNN
+	1    4850 5600
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS3
+U 1 1 5F4A812D
+P 4800 4550
+F 0 "HS3" H 4942 4671 50  0000 L CNN
+F 1 "Heatsink" H 4942 4580 50  0000 L CNN
+F 2 "Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm" H 4812 4550 50  0001 C CNN
+F 3 "~" H 4812 4550 50  0001 C CNN
+	1    4800 4550
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS2
+U 1 1 5F4A89E3
+P 4800 3700
+F 0 "HS2" H 4942 3821 50  0000 L CNN
+F 1 "Heatsink" H 4942 3730 50  0000 L CNN
+F 2 "Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm" H 4812 3700 50  0001 C CNN
+F 3 "~" H 4812 3700 50  0001 C CNN
+	1    4800 3700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Mechanical:Heatsink HS1
+U 1 1 5F4A92FA
+P 4850 2250
+F 0 "HS1" H 4992 2371 50  0000 L CNN
+F 1 "Heatsink" H 4992 2280 50  0000 L CNN
+F 2 "Heatsinks:Heatsink_Stonecold_HS-132_32x14mm_2xFixation1.5mm" H 4862 2250 50  0001 C CNN
+F 3 "~" H 4862 2250 50  0001 C CNN
+	1    4850 2250
+	1    0    0    -1  
+$EndComp
 $EndSCHEMATC
