@@ -9,4 +9,6 @@ Projeto de uma fonte linear, com transformador, baseada em reguladores 78xx, 79x
 -Placa (board) realizada no KiCad.
 
 
-Vídeo explicando o projeto (youtube) disponível em: https://www.youtube.com/channel/UCZTJobFHQ0Zxr3MwumCp64A
+Vídeo explicando o projeto (youtube) disponível em: https://www.youtube.com/playlist?list=PLbFFLnJpBtKtD-fQlKbGmZ5WMdUnZlrNB
+
+Canal do Youtube:  https://www.youtube.com/channel/UCZTJobFHQ0Zxr3MwumCp64A
