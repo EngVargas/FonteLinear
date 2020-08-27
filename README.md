@@ -3,7 +3,7 @@ Projeto de uma fonte linear, com transformador, baseada em reguladores 78xx, 79x
 <br><br><br>
 
 
-Vídeos explicando o projeto (youtube) disponível em:
+Vídeos explicando o projeto (youtube) disponíveis em:
 
 *Parte1:* Projeto realizado no SMath (17:18) https://youtu.be/ZXoOwEwYBIE
 
