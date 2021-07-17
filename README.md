@@ -5,11 +5,11 @@ Projeto de uma fonte linear, com transformador, baseada em reguladores 78xx, 79x
 
 Vídeos explicando o projeto (youtube) disponíveis em:
 
-*Parte1:* Projeto realizado no SMath (17:18) https://youtu.be/ZXoOwEwYBIE
+*Parte 3:* Projeto realizado no SMath (17:18) 
 
-*Parte 2:* Simulações realizadas no LTspice (9:07): https://youtu.be/4wRE6x82Yys
+*Parte 4:* Simulações realizadas no LTspice (9:07): 
 
-*Parte 3:* Placa (board) realizada no KiCad (3:58): https://youtu.be/ecJSVgTA0PM
+*Parte 5:* Placa (board) realizada no KiCad (3:58): 
 <br><br><br>
 
 
