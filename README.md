@@ -13,11 +13,11 @@ Vídeos explicando o projeto (youtube) disponíveis em:
 
 *Parte 4:* Simulações realizadas no LTspice (9:07): https://youtu.be/Sk8upL2aWj8
 
-*Parte 5:* Placa (board) realizada no KiCad (3:58): https://youtu.be/-oL63cRfRww
+*Parte 5:* Placa (*board*) realizada no KiCad (3:58): https://youtu.be/-oL63cRfRww
 
 *Parte 6:* Corroendo a placa de fenolite (x:xx): Falta gravar.
 
-*Parte 7:* Solda dos componentes PTH (through-hole) (x:xx): Falta gravar.
+*Parte 7:* Solda dos componentes PTH (*through-hole*) (x:xx): Falta gravar.
 
 <br><br><br>
 
